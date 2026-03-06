@@ -23,7 +23,9 @@ It provides an interface where users can access academic information like course
 
 ## Project Structure
 
-index.html – Main dashboard page  
+index.html – Main dashboard page 
+ps.html – Profile Student
+pt.html – Profile Teacher
 assignment.html – Assignment section  
 attendance.html – Attendance calendar  
 courses.html – Course list  
