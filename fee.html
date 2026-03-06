@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fee Section</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .fee-section {
+      width: 400px;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .fee-header {
+      background: #0073e6;
+      color: #fff;
+      text-align: center;
+      padding: 12px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .fee-content {
+      background: #fff;
+      padding: 20px;
+    }
+    .fee-content table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .fee-content th, .fee-content td {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+    .fee-content th {
+      text-align: left;
+      color: #555;
+    }
+    .fee-content td {
+      text-align: right;
+      font-weight: bold;
+      color: #222;
+    }
+    .status {
+      color: #d9534f; /* red for pending */
+    }
+    /* Pay Button Styling */
+    .pay-btn {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      margin-top: 15px;
+      background: #0073e6;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      cursor: pointer;
+      text-decoration: none; /* for <a> tag */
+    }
+    .pay-btn:hover {
+      background: #005bb5;
+    }
+  </style>
+</head>
+<body>
+  <div class="fee-section">
+    <div class="fee-header">My Fee Details</div>
+    <div class="fee-content">
+      <table>
+        <tr>
+          <th>Total Fee</th>
+          <td>₹80,000</td>
+        </tr>
+        <tr>
+          <th>Fee Paid</th>
+          <td>₹50,000</td>
+        </tr>
+        <tr>
+          <th>Remaining Fee</th>
+          <td>₹30,000</td>
+        </tr>
+        <tr>
+          <th>Next Due Date</th>
+          <td>15 March 2026</td>
+        </tr>
+        <tr>
+          <th>Status</th>
+          <td class="status">Pending</td>
+        </tr>
+      </table>
+      <!-- Pay Button -->
+      <a href="#" class="pay-btn">Pay Now</a>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Teacher Dashboard</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f2f2f2;
+}
+
+.topbar{
+    background:#343f93;
+    color:white;
+    padding:15px;
+    text-align:center;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.college{
+    text-align:center;
+    padding:20px;
+    background:white;
+}
+
+.logo{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.college-name{
+    font-size:18px;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+.college-sub{
+    color:gray;
+    font-size:14px;
+}
+
+.menu{
+    padding:15px;
+}
+
+.card{
+    display:flex;
+    align-items:center;
+    background:white;
+    margin-bottom:12px;
+    border-radius:8px;
+    overflow:hidden;
+    text-decoration:none;
+    color:black;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.icon{
+    width:60px;
+    height:60px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.card-text{
+    padding:15px;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.red{background:#3aace1;}
+.yellow{background:#fbc02d;}
+.blue{background:#42a5f5;}
+.dark{background:#455a64;}
+.orange{background:#fb8c00;}
+.teal{background:#26a69a;}
+
+</style>
+</head>
+
+<body>
+
+<div class="topbar">Academia</div>
+
+<div class="college">
+
+<img src="../image/logo.png" class="logo" alt="College Logo">
+
+<div class="college-name">GNDEC College</div>
+<div class="college-sub">GNDEC College, Gill Chowk - Ludhiana</div>
+
+</div>
+
+<div class="menu">
+
+<a href="../Pages/attendance.html" class="card">
+<div class="icon yellow">✔</div>
+<div class="card-text">Attendance</div>
+</a>
+
+<a href="../Pages/assignment.html" class="card">
+<div class="icon red">📝</div>
+<div class="card-text">Assignments</div>
+</a>
+
+<a href="../Pages/result.html" class="card">
+<div class="icon red">🎓</div>
+<div class="card-text">Result</div>
+</a>
+
+<a href="../Pages/exam.html" class="card">
+<div class="icon blue">📊</div>
+<div class="card-text">Examinations</div>
+</a>
+
+<a href="../Pages/event.html" class="card">
+<div class="icon dark">📅</div>
+<div class="card-text">Event</div>
+</a>
+
+<a href="../Pages/salary.html" class="card">
+<div class="icon dark">₹</div>
+<div class="card-text">Salary</div>
+</a>
+
+<a href="../Pages/timetable.html" class="card">
+<div class="icon orange">🕒</div>
+<div class="card-text">Timetable</div>
+</a>
+
+<a href="../Pages/holiday.html" class="card">
+<div class="icon yellow">🎉</div>
+<div class="card-text">Holiday</div>
+</a>
+
+</div>
+
+</body>
+</html>
